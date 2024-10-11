@@ -1,21 +1,24 @@
 {
-  "name": "javascript-action",
-  "description": "GitHub Actions JavaScript Template",
+  "name": "pr-comment",
+  "description": "GitHub Actions JavaScript - Add PR changes as comment",
   "version": "0.0.0",
-  "author": "",
+  "author": "Alex Duong",
   "private": true,
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/alex-twan-duong/JsAction_PrComment#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/alex-twan-duong/JsAction_PrComment.git"
   },
   "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
+    "url": "https://github.com/alex-twan-duong/JsAction_PrComment/issues"
   },
   "keywords": [
     "GitHub",
     "Actions",
-    "JavaScript"
+    "JavaScript",
+    "Pull Request",
+    "Comment",
+    "Metadata"
   ],
   "exports": {
     ".": "./dist/index.js"
