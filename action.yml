@@ -1,18 +1,29 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
+name: 'JsAction_PrComment'
+description: 'Provide a comment for PR'
 author: 'Your name or organization here'
 
 # Define your inputs here.
 inputs:
+  owner:
+    description: 'The owner of the repo (user/org)'
+    required: true
+
+  repo:
+    description: 'The repo name'
+    required: true
+
+  pr_no:
+    description: 'The PR number'
+    required: true
+
+  token:
+    description: 'The token in order to call REST APIs (R/W)'
+    required: true
+
   milliseconds:
     description: 'Your input description here'
     required: true
     default: '1000'
-
-# Define your outputs here.
-outputs:
-  time:
-    description: 'Your output description here'
 
 runs:
   using: node20
